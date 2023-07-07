@@ -1,0 +1,286 @@
+ol.f {list-style-type: decimal;}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:50px 100px;
+    background-color: #dff9fb;
+}
+a{
+    color:#2980b9;
+    text-decoration: none;
+}
+h1{
+    font-weight:400;
+}
+
+.intro{
+    content: "";
+  display: table;
+  clear: both;
+    
+
+}
+.first-left{
+    width: 54%;
+    float:left;
+}
+.first-right{
+    border:2px solid #7f8fa6;
+    border-radius:3px;
+    width:38%;
+    height:800px;
+    float:right;
+}
+.first-right img{
+    height:350px;
+}
+.column{
+  
+  display:flex;
+  justify-content: space-between;
+  clear: both;
+  background-color: grey;
+  margin:10px 10px;
+  border-radius: 2px;
+}
+.col-1 img,.col-3 img{
+    width:60px;
+    height:50px;
+   
+}
+.col-1{
+    margin: 10px;
+    width:30%;
+    flex:25%;
+}
+.col-3{
+    margin: 10px;
+    flex:11%;
+}
+.col-2{
+    margin: 10px;
+    display:inline-block;
+    flex:40%;
+}
+.second-left{
+    border:1px solid grey;
+    width:300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.title{
+    border:1px solid black;
+}
+
+.fas,.menu{
+    display:inline-block;
+    vertical-align: middle;
+    padding:5px;   
+}
+.menu{
+    padding-right:140px;
+}
+.content{
+    padding-left: 15px;
+}
+
+.content p{
+    line-height: 0.9;
+}
+.indent{
+    padding-left: 40px;
+}
+.Trivia{
+    display: flex;
+}
+.Trivia img{
+    border:1px solid black;
+    display:block;
+}
+.Trivia-grid1{
+    flex:20%;
+}
+.Trivia-grid2{
+    flex:60%;
+}
+.divider {
+    border-bottom: 1px solid #888989;
+    margin-top:-15px;
+    margin-bottom:15px;
+  }
+.black{
+    color:black;
+    text-decoration: none;
+}
+.blue{
+    color:#2980b9;
+}
+.personality{
+    margin-bottom: 50px;
+}
+.history h3{
+    color:#2980b9;
+}
+.second-right{
+    border: 1px solid grey;
+    margin-top:-3px;
+    background-color: grey;
+    border-left:5px solid  #f5f6fa;
+    border-right:5px solid  #f5f6fa;
+    display:flex;
+}
+.second-right h4{
+    text-align: center; 
+    margin-top:13px;
+    flex:60%;
+}
+.icon{
+    flex:5%;
+}
+.third-right{
+    background-color: #dcdde1;
+    margin-top:-17px;
+    border-left:5px solid  #f5f6fa;
+    border-right:5px solid  #f5f6fa;
+    padding-bottom: 4px;
+    padding-top:1px;
+}
+.third-right p,.fourth-right p{
+    line-height: 0.6;
+}
+.third-right p,.fourth-right p,.fifth-right p{
+    padding-top:10px;
+    padding-left:20px;
+}
+.pad1 {
+    padding-left:120px;
+}
+.pad2{
+    padding-left:83px;
+}
+.fourth-right{
+    background-color: #bdc3c7;
+    margin-top:-16px;
+    border-left:5px solid  #f5f6fa;
+    border-right:5px solid  #f5f6fa;
+    padding-bottom: 2px;
+    padding-top:1px;
+}
+.fifth-right{
+    background-color: #dcdde1;
+    margin-top:-16px;
+    margin-bottom: 0;
+    border-left:5px solid  #f5f6fa;
+    border-right:5px solid  #f5f6fa;
+    border-bottom:3px solid  #f5f6fa;
+}
+
+.VA-image img{
+    height: 50px;
+    padding-left:200px;
+}
+.Trivia-grid1{
+    margin-right:20px;
+}
+.gameSpot a{
+    padding-right:30px
+}
+
+.three-cols{
+    display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  max-width:1200px;
+  margin:0 auto;
+  margin-bottom: -60px;
+}
+.three-col1{
+margin-bottom:60px;
+  width:30%;
+  height:100%;
+  border-radius:5px;
+}
+.mini-text{
+    font-size: 13px;
+}
+
+.Anime-History p,.ability p,.history p,.personality{
+    line-height: 1.5;
+}
+
+.mini1{
+    font-size:14px;
+}
+
+.gallery-col{
+    display:flex;
+}
+
+.gallery-col1 img,.gallery-col2 img{
+    width:100%;
+    height: 200px;
+}
+.gallery-col1,.gallery-col2{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.gallery,.trivia{
+    margin-bottom: 50px;
+}
+.footer{
+  
+    border:2px solid #6c5ce7;
+    width:75%;
+    
+}
+.first-row{
+    background-color: #6c5ce7;
+    margin-top:-20px;
+    margin-bottom:-20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    color:white;
+    height:22px;
+}
+#my-span{
+    margin-left:150px;
+    margin-right:-200px;
+}
+.first-row p{
+    float:right;
+}
+.second-row{
+    background-color: #3498db;
+    color:white;
+    margin-left:2px;
+    text-align: center;
+    margin-right:2px;
+    margin-bottom: 2px;
+    height:22px;
+}
+.second-row h5{
+    padding-top: 3px;
+}
+.fa-circle{
+    color:grey;
+    font-size:4px;
+}
+.third-row{
+    color:#2980b9;
+    font-size:13px;
+    text-align: center;
+}
+.right-corner{
+    text-align:right;
+    font-size:12px;
+}
+
+.categories{
+    margin-bottom: 100px;
+}
+
+
+
+
+
